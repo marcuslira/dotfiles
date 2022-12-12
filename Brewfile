@@ -1,9 +1,9 @@
 # Taps
-tap 'caskroom/cask-versions'
-tap 'caskroom/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/cask-fonts'
 
 # Install ZSH
-brew 'zsh'
+# brew 'zsh'
 brew 'zsh-completions'
 brew 'z'
 brew 'direnv'
@@ -39,32 +39,33 @@ brew 'yarn'
 
 # Develoment Tools
 brew 'csvkit'
+brew 'saulpw/vd/visidata'
 brew 'neovim'
 cask 'visual-studio-code'
 cask 'github'
 cask 'sourcetree'
-cask 'postman'
-cask 'dash'
+#cask 'postman'
+#cask 'dash'
 cask 'docker'
 cask 'nteract'
 cask 'textmate'
 
 # Database Tools
 cask 'tableplus'
-cask 'datagrip'
+#cask 'datagrip'
 
 # Browsers
 cask 'firefox'
 cask 'google-chrome'
 
 # File Management
-cask 'google-backup-and-sync'
+cask 'google-drive'
 cask 'dropbox'
 
 # Comms
 cask 'slack'
 cask 'whatsapp'
-cask 'skype'
+#cask 'skype'
 
 # Music
 cask 'spotify'
@@ -74,14 +75,14 @@ cask 'spotmenu'
 # Utilities
 brew 'mackup'
 cask 'iterm2'
-cask 'aerial'
+#cask 'aerial'
 cask 'vlc'
 cask 'the-unarchiver'
 cask 'cloudapp'
 cask 'itsycal'
 cask 'daisydisk'
-cask 'vnc-viewer'
-cask 'evernote'
+#cask 'vnc-viewer'
+#cask 'evernote'
 cask 'karabiner-elements'
 
 # not for professional use
@@ -92,13 +93,10 @@ cask 'karabiner-elements'
 # cask 'openemu'
 
 # Quicklook
-cask 'qlcolorcode'
 cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
-cask 'qlstephen'
-cask 'webpquicklook'
 cask 'qlimagesize'
 
 # Fonts
-cask 'font-firacode-nerd-font'
+cask 'font-fira-code'

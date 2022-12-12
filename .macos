@@ -72,6 +72,9 @@ sudo systemsetup -settimezone "Europe/Stockholm" > /dev/null
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+# Disable Press and hold
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################

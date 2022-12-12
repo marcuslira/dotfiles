@@ -10,11 +10,11 @@
 # Disabled this because I have no custom binaries at the moment.
 #export PATH="$DOTFILES/bin:$PATH"
 
-export PATH=/usr/local/anaconda3/bin:"$PATH"
+export PATH=/opt/homebrew/anaconda3/bin:"$PATH"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # asdf will manage all (most) platform enviroments versions
-. $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 #. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
