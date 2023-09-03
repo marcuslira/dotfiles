@@ -10,7 +10,9 @@
 # Disabled this because I have no custom binaries at the moment.
 #export PATH="$DOTFILES/bin:$PATH"
 
-export PATH=/opt/homebrew/anaconda3/bin:"$PATH"
+#export PATH=/opt/homebrew/anaconda3/bin:"$PATH"
+#export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
+
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"

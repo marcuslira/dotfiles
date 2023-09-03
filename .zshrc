@@ -29,7 +29,7 @@ plugins=(git git-extras history-substring-search z zsh-syntax-highlighting zsh-a
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/marcuslira/.local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -56,3 +56,11 @@ eval "$(direnv hook zsh)"
 
 # -- Term ----------------------------------------------------------------------
 TERM=xterm-256color
+
+
+# Pyenv config
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
