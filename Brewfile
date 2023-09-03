@@ -31,11 +31,15 @@ brew 'bat'
 brew 'tmux'
 brew 'the_silver_searcher'
 brew 'gpg'
+brew 'tig'
+brew 'jq'
+
 
 # Development/Platforms
 brew 'asdf'
-cask 'anaconda'
+#cask 'anaconda'
 brew 'yarn'
+brew 'pyenv'
 
 # Develoment Tools
 brew 'csvkit'
@@ -78,12 +82,17 @@ cask 'iterm2'
 #cask 'aerial'
 cask 'vlc'
 cask 'the-unarchiver'
-cask 'cloudapp'
+#cask 'cloudapp'
 cask 'itsycal'
-cask 'daisydisk'
+#cask 'daisydisk'
 #cask 'vnc-viewer'
 #cask 'evernote'
-cask 'karabiner-elements'
+#cask 'karabiner-elements'
+cask 'nordvpn'
+cask 'rectangle'
+
+# Productivity
+cask 'obsidian'
 
 # not for professional use
 # cask 'utorrent'
