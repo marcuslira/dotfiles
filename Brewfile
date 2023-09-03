@@ -36,7 +36,7 @@ brew 'jq'
 
 
 # Development/Platforms
-brew 'asdf'
+#brew 'asdf'
 #cask 'anaconda'
 brew 'yarn'
 brew 'pyenv'
