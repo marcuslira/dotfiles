@@ -43,7 +43,7 @@ brew 'pyenv'
 
 # Develoment Tools
 brew 'csvkit'
-brew 'saulpw/vd/visidata'
+brew 'saulpw/vd'
 brew 'neovim'
 cask 'visual-studio-code'
 cask 'github'
