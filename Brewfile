@@ -37,9 +37,10 @@ brew 'jq'
 
 # Development/Platforms
 #brew 'asdf'
+brew 'mise'
 #cask 'anaconda'
 brew 'yarn'
-brew 'pyenv'
+#brew 'pyenv'
 
 # Develoment Tools
 brew 'csvkit'

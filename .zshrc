@@ -59,8 +59,13 @@ TERM=xterm-256color
 
 
 # Pyenv config
-alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+#alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+#export PYENV_ROOT="$HOME/.pyenv"
+#command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init -)"
+
+#export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+#export PUPPETEER_EXECUTABLE_PATH=which chromium
+eval "$(/Users/marcuslira/.local/bin/mise activate zsh)"
+
