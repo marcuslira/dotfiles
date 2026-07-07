@@ -29,7 +29,7 @@ plugins=(git git-extras history-substring-search z zsh-syntax-highlighting zsh-a
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/marcuslira/.local/bin:$PATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -67,5 +67,9 @@ TERM=xterm-256color
 
 #export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 #export PUPPETEER_EXECUTABLE_PATH=which chromium
-eval "$(/Users/marcuslira/.local/bin/mise activate zsh)"
+
+# Activate mise (installed via Homebrew)
+if command -v mise &> /dev/null; then
+  eval "$(mise activate zsh)"
+fi
 
