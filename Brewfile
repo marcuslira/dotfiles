@@ -44,8 +44,6 @@ brew 'pre-commit'
 
 brew 'mise'
 brew 'yarn'
-brew 'go'
-brew 'python@3.13'
 brew 'openjdk@17'
 brew 'gnupg'
 
@@ -60,7 +58,7 @@ brew 'graphviz'
 
 cask 'visual-studio-code'
 cask 'cursor'
-cask 'zed'
+#cask 'zed'
 cask 'textmate'
 
 ###############################################################################
@@ -68,18 +66,17 @@ cask 'textmate'
 ###############################################################################
 
 brew 'mysql'
-brew 'postgresql@14'
+#brew 'postgresql@14'
 
 cask 'tableplus'
 cask 'datagrip'
-cask 'dbeaver-community'
 
 ###############################################################################
 # Container & Cloud
 ###############################################################################
 
 cask 'orbstack'
-cask 'docker-desktop'
+#cask 'docker-desktop'
 brew 'awscli'
 
 ###############################################################################
@@ -87,7 +84,7 @@ brew 'awscli'
 ###############################################################################
 
 cask 'github'
-cask 'sourcetree'
+#cask 'sourcetree'
 cask 'nteract'
 
 ###############################################################################
@@ -95,15 +92,15 @@ cask 'nteract'
 ###############################################################################
 
 cask 'firefox'
-cask 'google-chrome'
+#cask 'google-chrome'
 
 ###############################################################################
 # File Management & Sync
 ###############################################################################
 
 cask 'google-drive'
-cask 'dropbox'
-cask 'cyberduck'
+#cask 'dropbox'
+#cask 'cyberduck'
 
 ###############################################################################
 # Communication
@@ -118,7 +115,7 @@ cask 'whatsapp'
 
 cask 'spotify'
 cask 'spotmenu'
-cask 'lastfm'
+#cask 'lastfm'
 cask 'vlc'
 
 ###############################################################################
@@ -127,13 +124,12 @@ cask 'vlc'
 
 brew 'mackup'
 cask 'iterm2'
-cask 'warp'
 cask 'the-unarchiver'
 cask 'itsycal'
 cask 'rectangle'
-cask 'nordvpn'
+#cask 'nordvpn'
 cask 'tunnelblick'
-cask 'dash'
+#cask 'dash'
 
 ###############################################################################
 # Productivity
