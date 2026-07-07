@@ -51,7 +51,8 @@ cask 'github'
 cask 'sourcetree'
 #cask 'postman'
 #cask 'dash'
-cask 'docker'
+#cask 'docker'
+cask 'orbstack'
 cask 'nteract'
 cask 'textmate'
 
@@ -74,7 +75,7 @@ cask 'whatsapp'
 
 # Music
 cask 'spotify'
-cask 'lastfm'
+#cask 'lastfm'
 cask 'spotmenu'
 
 # Utilities
