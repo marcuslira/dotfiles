@@ -5,6 +5,11 @@ echo "Setting up your Mac..."
 # Set DOTFILES path
 DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
 
+# Update git submodules
+echo "Updating git submodules..."
+git -C "$DOTFILES" submodule update --init --recursive
+git -C "$DOTFILES" submodule foreach git pull origin master
+
 # Check for Oh My Zsh and install if we don't have it
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
   /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
@@ -17,6 +22,7 @@ if ! command -v brew &> /dev/null; then
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
+
 
 # Update Homebrew recipes
 brew update
