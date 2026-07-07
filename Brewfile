@@ -47,6 +47,11 @@ brew 'yarn'
 brew 'openjdk@17'
 brew 'gnupg'
 
+# Deprecated/Alternative version managers (kept for reference)
+#brew 'asdf'
+#brew 'pyenv'
+#cask 'anaconda'
+
 ###############################################################################
 # Development Tools
 ###############################################################################
@@ -58,15 +63,19 @@ brew 'graphviz'
 
 cask 'visual-studio-code'
 cask 'cursor'
-#cask 'zed'
 cask 'textmate'
+
+# Professional tools (commented - uncomment as needed)
+#cask 'zed'
+#cask 'postman'
+#cask 'dash'
 
 ###############################################################################
 # Databases & Data Tools
 ###############################################################################
 
 brew 'mysql'
-#brew 'postgresql@14'
+# brew 'postgresql@14'
 
 cask 'tableplus'
 cask 'datagrip'
@@ -76,7 +85,7 @@ cask 'datagrip'
 ###############################################################################
 
 cask 'orbstack'
-#cask 'docker-desktop'
+# cask 'docker-desktop'
 brew 'awscli'
 
 ###############################################################################
@@ -84,7 +93,7 @@ brew 'awscli'
 ###############################################################################
 
 cask 'github'
-#cask 'sourcetree'
+# cask 'sourcetree'
 cask 'nteract'
 
 ###############################################################################
@@ -92,15 +101,14 @@ cask 'nteract'
 ###############################################################################
 
 cask 'firefox'
-#cask 'google-chrome'
 
 ###############################################################################
 # File Management & Sync
 ###############################################################################
 
 cask 'google-drive'
-#cask 'dropbox'
-#cask 'cyberduck'
+# cask 'dropbox'
+# cask 'cyberduck'
 
 ###############################################################################
 # Communication
@@ -108,6 +116,7 @@ cask 'google-drive'
 
 cask 'slack'
 cask 'whatsapp'
+#cask 'skype'
 
 ###############################################################################
 # Media & Entertainment
@@ -115,7 +124,7 @@ cask 'whatsapp'
 
 cask 'spotify'
 cask 'spotmenu'
-#cask 'lastfm'
+# cask 'lastfm'
 cask 'vlc'
 
 ###############################################################################
@@ -127,9 +136,16 @@ cask 'iterm2'
 cask 'the-unarchiver'
 cask 'itsycal'
 cask 'rectangle'
-#cask 'nordvpn'
+# cask 'nordvpn'
 cask 'tunnelblick'
-#cask 'dash'
+
+# Personal use only (commented)
+#cask 'aerial'
+#cask 'cloudapp'
+#cask 'daisydisk'
+#cask 'vnc-viewer'
+#cask 'evernote'
+#cask 'karabiner-elements'
 
 ###############################################################################
 # Productivity
@@ -143,6 +159,14 @@ cask 'obsidian'
 
 cask 'claude'
 cask 'claude-code'
+
+###############################################################################
+# Entertainment & Games (personal use only - commented)
+###############################################################################
+
+# cask 'utorrent'
+# cask 'steam'
+# cask 'openemu'
 
 ###############################################################################
 # Quicklook Plugins
