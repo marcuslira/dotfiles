@@ -31,14 +31,6 @@ if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
 
-# Settings for dev enviroments
-# Those are just the plugins, you will need to install the version yourself
-# with, for instance: asdf install golang 1.13
-# for now, Python and R are still managed by Anaconda (path set on path.zsh).
-asdf plugin-add golang
-asdf plugin-add dotnet-core
-asdf plugin-add nodejs
-
 # Install Oh-My-Zsh
 sh -c "$(curl -fsSL https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
 
