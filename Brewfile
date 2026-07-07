@@ -2,27 +2,31 @@
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-fonts'
 
-# Install ZSH
-# brew 'zsh'
+###############################################################################
+# Core CLI & Shell
+###############################################################################
+
 brew 'zsh-completions'
 brew 'z'
 brew 'direnv'
-
-# Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew 'findutils'
-
-# Install Bash 4
 brew 'bash'
-
-# Install more recent versions of some macOS tools
 brew 'grep'
 
-# Install Binaries/CLI tools
+###############################################################################
+# Git & Version Control
+###############################################################################
+
 brew 'git'
 brew 'hub'
+brew 'gh'
+brew 'tig'
+
+###############################################################################
+# Utilities & Tools
+###############################################################################
+
 brew 'tree'
 brew 'trash'
 brew 'wget'
@@ -30,84 +34,131 @@ brew 'dtrx'
 brew 'bat'
 brew 'tmux'
 brew 'the_silver_searcher'
-brew 'gpg'
-brew 'tig'
+brew 'fzf'
 brew 'jq'
+brew 'pre-commit'
 
+###############################################################################
+# Runtime & Version Management
+###############################################################################
 
-# Development/Platforms
-#brew 'asdf'
 brew 'mise'
-#cask 'anaconda'
 brew 'yarn'
-#brew 'pyenv'
+brew 'go'
+brew 'python@3.13'
+brew 'openjdk@17'
+brew 'gnupg'
 
-# Develoment Tools
+###############################################################################
+# Development Tools
+###############################################################################
+
 brew 'csvkit'
-brew 'saulpw/vd'
+brew 'visidata'
 brew 'neovim'
+brew 'graphviz'
+
 cask 'visual-studio-code'
-cask 'github'
-cask 'sourcetree'
-#cask 'postman'
-#cask 'dash'
-#cask 'docker'
-cask 'orbstack'
-cask 'nteract'
+cask 'cursor'
+cask 'zed'
 cask 'textmate'
 
-# Database Tools
-cask 'tableplus'
-#cask 'datagrip'
+###############################################################################
+# Databases & Data Tools
+###############################################################################
 
+brew 'mysql'
+brew 'postgresql@14'
+
+cask 'tableplus'
+cask 'datagrip'
+cask 'dbeaver-community'
+
+###############################################################################
+# Container & Cloud
+###############################################################################
+
+cask 'orbstack'
+cask 'docker-desktop'
+brew 'awscli'
+
+###############################################################################
+# Collaboration & Development
+###############################################################################
+
+cask 'github'
+cask 'sourcetree'
+cask 'nteract'
+
+###############################################################################
 # Browsers
+###############################################################################
+
 cask 'firefox'
 cask 'google-chrome'
 
-# File Management
+###############################################################################
+# File Management & Sync
+###############################################################################
+
 cask 'google-drive'
 cask 'dropbox'
+cask 'cyberduck'
 
-# Comms
+###############################################################################
+# Communication
+###############################################################################
+
 cask 'slack'
 cask 'whatsapp'
-#cask 'skype'
 
-# Music
+###############################################################################
+# Media & Entertainment
+###############################################################################
+
 cask 'spotify'
-#cask 'lastfm'
 cask 'spotmenu'
+cask 'lastfm'
+cask 'vlc'
 
-# Utilities
+###############################################################################
+# Terminal & Utilities
+###############################################################################
+
 brew 'mackup'
 cask 'iterm2'
-#cask 'aerial'
-cask 'vlc'
+cask 'warp'
 cask 'the-unarchiver'
-#cask 'cloudapp'
 cask 'itsycal'
-#cask 'daisydisk'
-#cask 'vnc-viewer'
-#cask 'evernote'
-#cask 'karabiner-elements'
-cask 'nordvpn'
 cask 'rectangle'
+cask 'nordvpn'
+cask 'tunnelblick'
+cask 'dash'
 
+###############################################################################
 # Productivity
+###############################################################################
+
 cask 'obsidian'
 
-# not for professional use
-# cask 'utorrent'
-# cask 'steam'
-# cask 'sketch'
-# cask 'sketch-toolbox'
-# cask 'openemu'
+###############################################################################
+# Anthropic Tools
+###############################################################################
 
-# Quicklook
+cask 'claude'
+cask 'claude-code'
+
+###############################################################################
+# Quicklook Plugins
+###############################################################################
+
 cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlimagesize'
 
+###############################################################################
 # Fonts
+###############################################################################
+
 cask 'font-fira-code'
