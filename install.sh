@@ -24,6 +24,11 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew bundle --file "$DOTFILES/Brewfile"
 
+# Setup runtime versions with mise
+echo "Setting up runtime versions with mise..."
+mise install python
+mise use python --global
+
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
