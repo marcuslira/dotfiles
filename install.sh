@@ -51,6 +51,7 @@ echo "source $DOTFILES/.zshrc" > $HOME/.zshrc
 source $HOME/.zshrc
 
 # Copy the Mackup config file to the home directory
+cp -rf "$DOTFILES/.mackup/" $HOME/.mackup/
 cp "$DOTFILES/.mackup.cfg" $HOME/.mackup.cfg
 
 # Set macOS preferences
